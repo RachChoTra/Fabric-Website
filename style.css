@@ -1,0 +1,71 @@
+/* I'm showing that I know how to leave a comment in the stylesheet section of the document. */
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #563913;
+        margin: 0;
+        background:#f5eae6
+    }
+     /*Wraps the content of the whole page. */
+     #wrapper {
+        margin: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+/* NAVIGATION CSS BEGIN */
+
+     /* Styles my element with the id navigationbar. */
+     #navigationbar {
+        clear: both;
+        background-color: rgb(165, 72, 88);
+     } 
+        /* This is to style the element that holds all the menu items. */
+        nav {
+            float: center;
+        }
+        /* The <ul> element within the nav element. */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+        }
+        /*Remove the underline from the links in the navigation */
+        nav a{
+            text-decoration: none;
+            display:block;
+            text-align: left;
+            color:#291803
+        }
+        nav a:hover{
+            background-color: rgb(172, 46, 67);  
+        }
+
+/* CARD NAVGATION*/
+ /* Ensure the entire card is clickable */
+ .card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+/* CONTENT STYLING */
+    h1 {
+        text-align: center;
+        background-color: rgb(240, 156, 170);
+        color:#563913
+    }
+    h2 {
+        background-color: rgb(235, 205, 210);
+        color:#563913
+    }
+    button {
+        background-color: #f5eae6;
+        padding: 10px;
+        border-radius: 8px;
+        color: #563913 
+    }

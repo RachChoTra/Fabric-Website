@@ -1,0 +1,101 @@
+/* Reset and Global Styles */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #563913;
+    margin: 0;
+    background: #f5eae6;
+}
+
+/* Wrapper for Content */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: rgb(191, 121, 132);
+}
+
+.navbar-nav .nav-link {
+    color: #291803;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgb(201, 125, 137);
+    color: #fff;
+}
+
+/* Card Styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Ensure images cover the entire area */
+    border-bottom: 1px solid #ddd; /* Optional border for image */
+}
+
+.card-body {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: #666;
+    font-size: 1rem;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Optional border for footer */
+}
+
+.btn-primary {
+    background-color: rgb(191, 121, 132);
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: rgb(201, 125, 137);
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px 10px;
+    }
+}
